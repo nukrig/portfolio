@@ -15,12 +15,12 @@ function Footer(){
                     </div>
                     <div className='phone'>
                         <h4><FaPhone size={20} style={{color:'white',marginRight:'1rem'}} />
-                        551 11 65 40
+                        <a href={`tel:${+995551116540}`}>551 11 65 40</a>
                         </h4>
                     </div>
                     <div className='email'>
                         <h4><FaMailBulk size={17} style={{color:'white',marginRight:'0.9rem'}} />
-                        nukrigegelashvili3@gmail.com
+                        <a href={`mailto:${'nukrigegelashvili3@gmail.com'}`}>nukrigegelashvili3@gmail.com</a>
                         </h4>
                     </div>
                 </div>
