@@ -1,0 +1,71 @@
+.infoDiv {
+  width: 70%;
+  margin: 100px auto 70px auto;
+  background-color: wheat;
+  padding: 20px;
+  border: 2px solid aqua;
+  box-shadow: 15px 15px 200px aqua;
+  border-radius: 20px;
+}
+.infoDiv h4 {
+  color: black;
+  font-size: 22px;
+}
+.infoDiv h6 {
+  font-size: 17px;
+}
+.infoDiv h6 a {
+  color: blue;
+  cursor: pointer;
+}
+.infoDiv ul {
+  list-style: circle;
+  margin-left: 40px;
+}
+.infoDiv p {
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+}
+@media (max-width: 800px) {
+  .infoDiv {
+    width: 85%;
+  }
+}
+
+@media (max-width: 600px) {
+  .infoDiv {
+    width: 90%;
+  }
+  .infoDiv h4 {
+    font-size: 20px;
+  }
+  .infoDiv ul {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .infoDiv h6 {
+    font-size: 15px;
+  }
+  .infoDiv p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 400px) {
+  .infoDiv h4 {
+    font-size: 18px;
+  }
+  .infoDiv ul {
+    font-size: 12px;
+  }
+  .infoDiv h6 {
+    font-size: 13px;
+  }
+  .infoDiv p {
+    font-size: 10px;
+  }
+}

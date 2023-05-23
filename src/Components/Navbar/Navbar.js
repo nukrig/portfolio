@@ -8,7 +8,7 @@ function Navbar(){
     const[click,setClick]=useState(false)
 
     const changeColor = ()=>{
-        if(window.scrollY >= 100){
+        if(window.scrollY >= 30){
             setColor(true)
         }else{
             setColor(false)
@@ -32,6 +32,9 @@ function Navbar(){
                 </li>
                 <li>
                     <Link to='/projects'> Projects </Link>
+                </li>
+                <li>
+                    <Link to='/about'> About </Link>
                 </li>
             </ul>
             <div className="burger" onClick={handleClick}>
