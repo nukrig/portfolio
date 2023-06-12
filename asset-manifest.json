@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.251fc618.css",
+    "main.css": "/portfolio/static/css/main.38b4f9e0.css",
     "main.js": "/portfolio/static/js/main.4a68664e.js",
     "static/media/projects.jpg": "/portfolio/static/media/projects.cb3ab7743c78cc3f2680.jpg",
     "static/media/intro.jpg": "/portfolio/static/media/intro.b05ce8045c6eb2878e39.jpg",
@@ -16,11 +16,11 @@
     "static/media/TipCalc.png": "/portfolio/static/media/TipCalc.18b63e454eea4935d7b9.png",
     "static/media/ToDo App.png": "/portfolio/static/media/ToDo App.e89bca5f93892eaac79a.png",
     "index.html": "/portfolio/index.html",
-    "main.251fc618.css.map": "/portfolio/static/css/main.251fc618.css.map",
+    "main.38b4f9e0.css.map": "/portfolio/static/css/main.38b4f9e0.css.map",
     "main.4a68664e.js.map": "/portfolio/static/js/main.4a68664e.js.map"
   },
   "entrypoints": [
-    "static/css/main.251fc618.css",
+    "static/css/main.38b4f9e0.css",
     "static/js/main.4a68664e.js"
   ]
 }
