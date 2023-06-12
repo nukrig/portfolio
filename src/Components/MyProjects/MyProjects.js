@@ -3,6 +3,7 @@ import './MyProjects.css'
 import {FaCss3, FaHtml5, FaJs, FaReact } from 'react-icons/fa'
 import ProjectCard from "./ProjectCard";
 // Images
+import liveCoding from '../../assets/unilab-livecoding.png'
 import ToDoApp from '../../assets/ToDo App.png'
 import TipCalc from '../../assets/TipCalc.png'
 import Rating from '../../assets/Rating.png'
@@ -27,6 +28,20 @@ function MyProjects() {
         <div className="project-container">
 
 {/* PROJECT 1 */}
+<ProjectCard 
+                img={liveCoding} 
+                view='https://nukrig.github.io/live-coding-unilab/'
+                source='https://github.com/nukrig/live-coding-unilab'
+                heading='Live coding task'
+                paragraph="This is the live coding challenge from unilab. i had to create page,
+                it must be blank, only 2 button is in the top of the screen and task was to detect
+                client clicks and show little cyrcle. also the colors must be random and changable.
+                for this challenge i used coordints from X and Y to detect place where client clicked last
+                and i have an array where i push all locations on click to have full list of clicks, 
+                and this way i can set undo and redo button clicks ... "
+            />
+
+{/* PROJECT 2 */}
             <ProjectCard 
                 img={ToDoApp} 
                 view='https://nukrig.github.io/todo-app-unilab/'
@@ -40,7 +55,7 @@ function MyProjects() {
                 be checked whether he is logged out or not, and then the corresponding command 
                 should be executed."
             />
-{/* PROJECT 2 */}
+{/* PROJECT 3 */}
             <ProjectCard 
                 img={Cv}
                 view="https://nukrig.github.io/CV-Generator-1920x1080-/"
@@ -53,7 +68,7 @@ function MyProjects() {
                  1920x1080px. This project taught me a lot, but I couldn't move to the next 
                  stage of the Redberry internship because I didn't know React."
             />
-{/* PROJECT 3 */}
+{/* PROJECT 4 */}
             <ProjectCard 
                 img={TipCalc}
                 view="https://nukrig.github.io/tip-calculator-react/"
@@ -63,7 +78,7 @@ function MyProjects() {
                 lot of things in the direction of React,I used Props, State and other 
                 main concepts and in the end it turned out to be a good exercise ."
             />
-{/* PROJECT 4 */}
+{/* PROJECT 5 */}
             <ProjectCard 
                 img={Rating}
                 view="https://nukrig.github.io/interactive-rating-react/"
@@ -73,7 +88,7 @@ function MyProjects() {
                 as a small component, and use it in a relatively large project. This 
                 little task uses props to display the appropriate message on the next page."
             />
-{/* PROJECT 5 */}
+{/* PROJECT 6 */}
             <ProjectCard 
                 img={GithubUsers}
                 view="https://nukrig.github.io/react-usestate/"
@@ -82,7 +97,7 @@ function MyProjects() {
                 paragraph="In this example, I discussed how I could use fetch in React. 
                 I sent a request to the GitHub app and listed the appropriate users"
             />
-{/* PROJECT 6 */}
+{/* PROJECT 7 */}
             <ProjectCard 
                 img={Clock}
                 view="https://nukrig.github.io/react-lifecycle/"
@@ -91,7 +106,7 @@ function MyProjects() {
                 paragraph="In this example, I learned what the React lifecycle is, and I also 
                 built a clock application using UseEffect Hook."
             />
-{/* PROJECT 7 */}
+{/* PROJECT 8 */}
             <ProjectCard 
                 img={Products}
                 view="https://nukrig.github.io/function-components/"
@@ -100,7 +115,7 @@ function MyProjects() {
                 paragraph="This exercise is similar to a shopping cart in an online store,
                 you can add or remove specific products to the cart"
             />
-{/* PROJECT 8 */}
+{/* PROJECT 9 */}
             <ProjectCard 
                 img={Faq}
                 view="https://nukrig.github.io/FAQ-accordion/"
@@ -109,7 +124,7 @@ function MyProjects() {
                 paragraph="This exercise is from frontendmentor, I built an accordion
                 for Frequently asked questions..."
             />
-{/* PROJECT 9 */}
+{/* PROJECT 10 */}
             <ProjectCard 
                 img={Calculator}
                 view="https://nukrig.github.io/calculatorJs/"
@@ -117,7 +132,7 @@ function MyProjects() {
                 heading="Calculator (JS)"
                 paragraph="This is a simple calculator that I built on my own inspiration using JavaScript"
             />
-{/* PROJECT 10 */}
+{/* PROJECT 11 */}
             <ProjectCard 
                 img={CharCalc}
                 view="https://nukrig.github.io/numberOfCharacters/"
@@ -126,7 +141,7 @@ function MyProjects() {
                 paragraph="In this example, I created an application that allows you to specify a text as well as a 
                 letter and count the number of times the corresponding letter is used in that text."
             />
-{/* PROJECT 11 */}
+{/* PROJECT 12 */}
             <ProjectCard 
                 img={Responsive}
                 view="https://nukrig.github.io/PROJECT-RESPONSIVE/#"
