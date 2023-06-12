@@ -22,3 +22,28 @@ a {
 ul {
   list-style-type: none;
 }
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: yellow;
+  color: black;
+  border: 1px solid white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-light {
+  background: transparent;
+  color: white;
+}
+
+.btn:hover {
+  background: rgb(59, 59, 59);
+  color: white;
+  transition: 0.3s;
+}
+@media (max-width: 340px) {
+  .btn {
+    padding: 6px 5px;
+  }
+}
