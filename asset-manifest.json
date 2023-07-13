@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.38b4f9e0.css",
-    "main.js": "/portfolio/static/js/main.4a68664e.js",
+    "main.js": "/portfolio/static/js/main.27d62ccd.js",
     "static/media/projects.jpg": "/portfolio/static/media/projects.cb3ab7743c78cc3f2680.jpg",
     "static/media/intro.jpg": "/portfolio/static/media/intro.b05ce8045c6eb2878e39.jpg",
     "static/media/Clock.png": "/portfolio/static/media/Clock.b0dc720989dcfcf956d2.png",
@@ -9,6 +9,7 @@
     "static/media/GithubUsers.png": "/portfolio/static/media/GithubUsers.6da74403d2f1f81e06f8.png",
     "static/media/CharCalc.png": "/portfolio/static/media/CharCalc.cde2e93f599988064791.png",
     "static/media/responsive.png": "/portfolio/static/media/responsive.5c51abd5e075b62df61f.png",
+    "static/media/giiks-portfolio.png": "/portfolio/static/media/giiks-portfolio.acb69f27eb5a6f1715e0.png",
     "static/media/Rating.png": "/portfolio/static/media/Rating.07e088ae079b85f17894.png",
     "static/media/FAQ.png": "/portfolio/static/media/FAQ.13fcf159424fe838c596.png",
     "static/media/CV.png": "/portfolio/static/media/CV.224daa436d7a5c224411.png",
@@ -17,10 +18,10 @@
     "static/media/ToDo App.png": "/portfolio/static/media/ToDo App.e89bca5f93892eaac79a.png",
     "index.html": "/portfolio/index.html",
     "main.38b4f9e0.css.map": "/portfolio/static/css/main.38b4f9e0.css.map",
-    "main.4a68664e.js.map": "/portfolio/static/js/main.4a68664e.js.map"
+    "main.27d62ccd.js.map": "/portfolio/static/js/main.27d62ccd.js.map"
   },
   "entrypoints": [
     "static/css/main.38b4f9e0.css",
-    "static/js/main.4a68664e.js"
+    "static/js/main.27d62ccd.js"
   ]
 }
