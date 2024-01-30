@@ -3,6 +3,7 @@ import './MyProjects.css'
 import {FaCss3, FaHtml5, FaJs, FaReact } from 'react-icons/fa'
 import ProjectCard from "./ProjectCard";
 // Images
+import strapi from '../../assets/strapi.png'
 import giksportfolio from '../../assets/giiks-portfolio.png'
 import liveCoding from '../../assets/unilab-livecoding.png'
 import ToDoApp from '../../assets/ToDo App.png'
@@ -27,6 +28,18 @@ function MyProjects() {
         <FaReact size={30} style={{color:'white',marginRight:'1rem'}} />
         </div>
         <div className="project-container">
+{/* PROJECT 0 */}
+<ProjectCard 
+        img={strapi} 
+        view='https://nukrig.github.io/strapi-demo/'
+        source='https://github.com/nukrig/strapi-demo'
+        heading='Strapi CMS'
+        paragraph="This is my first project with backend systems. Shortly after 
+        starting work at socar energy georgia, I got the task to select strapi
+         CMS (content management system) and try to integrate it into the frontend.
+          It was quite a good experience and I plan to continue working in this direction 
+          with the company and take on relevant projects. This is just a prototype, which is enough to show."
+    />
 {/* PROJECT 1 */}
 <ProjectCard 
                 img={giksportfolio} 

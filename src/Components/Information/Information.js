@@ -17,7 +17,10 @@ function Information(){
             <ul>
                 <li>Participate in projects.</li>
                 <li>Collaborate with team members to analyze and make solutions.</li>
-            </ul> <br/> 
+            </ul> 
+            <br/>
+            <h6>Junior Web Developer at -<a href="https://socar.ge/en/home-en/" target="blank"> SOCAR ENERGY GEORGIA</a> - 2023 January - Present </h6> <br/>
+            <br/> 
             <p>These experiences have allowed me to apply my knowledge and skills in practical settings,
                  further enhancing my understanding of the field. They have also given me valuable insights
                  into the importance of continuous learning and teamwork in the fast-paced world of technology.</p>
