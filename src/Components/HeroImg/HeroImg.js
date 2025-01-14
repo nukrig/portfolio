@@ -10,7 +10,7 @@ function HeroImg(){
             </div>
             <div className='content'>
                 <p> HI, I'M NUKRI GEGELASHVILI</p>
-                <h1>React Developer</h1>
+                <h1>Front-End Developer</h1>
                 <p style={{color:'yellowgreen',fontWeight:'bold'}}>
                     Currently I am Junior Web Developer at SOCAR ENERGY GEORGIA.
                 </p>

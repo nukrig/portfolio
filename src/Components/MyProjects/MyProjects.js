@@ -17,6 +17,8 @@ import Faq from '../../assets/FAQ.png'
 import Calculator from '../../assets/calculator.png'
 import CharCalc from '../../assets/CharCalc.png'
 import Responsive from '../../assets/responsive.png'
+import angularMarkUp from '../../assets/Anguar-markup.png'
+import angularTodo from '../../assets/angular-ToDo.png'
 
 function MyProjects() {
     return (
@@ -28,6 +30,28 @@ function MyProjects() {
         <FaReact size={30} style={{color:'white',marginRight:'1rem'}} />
         </div>
         <div className="project-container">
+{/* PROJECT -2*/}       
+<ProjectCard 
+    img={angularMarkUp} 
+    // view='https://angular-mark-up.vercel.app/'
+    // source='https://github.com/nukrig/angular-markUp'
+    heading='Angular MarkUp - Responsive'
+    paragraph="This fully responsive webpage is a complete markup project created during my Angular studies.
+     It showcases my ability to craft visually appealing layouts while integrating basic JavaScript for enhanced interactivity. 
+     The project helped me solidify my understanding of HTML, SCSS, and foundational JavaScript concepts, serving as a precursor 
+     to working with Angular's advanced features. (you can see figma design in README.MD)"
+/>
+{/* PROJECT -1 */}       
+<ProjectCard 
+    img={angularTodo} 
+    view='https://angular-to-do-app-gamma.vercel.app/'
+    source='https://github.com/nukrig/angular-ToDoApp'
+    heading='Angular to do app'
+    paragraph="This application was my first project while transitioning from React.js to AngularJS
+     during my initial days at SOCAR ENERGY GEORGIA. The project served as a foundational learning experience for understanding 
+     AngularJS concepts, such as components, directives, and two-way data binding. It allows users to add, edit, and delete tasks 
+     while showcasing a minimalistic design and smooth user interactions."
+/>
 {/* PROJECT 0 */}
 <ProjectCard 
         img={strapi} 
@@ -38,7 +62,8 @@ function MyProjects() {
         starting work at socar energy georgia, I got the task to select strapi
          CMS (content management system) and try to integrate it into the frontend.
           It was quite a good experience and I plan to continue working in this direction 
-          with the company and take on relevant projects. This is just a prototype, which is enough to show."
+          with the company and take on relevant projects. This is just a prototype, which is enough to show.
+          // but its created by test/free version of strapi and it has bugs while fetching the information, it was only  working for 30 trial days."
     />
 {/* PROJECT 1 */}
 <ProjectCard 
