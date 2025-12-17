@@ -12,7 +12,7 @@ function HeroImg(){
                 <p> HI, I'M NUKRI GEGELASHVILI</p>
                 <h1>Front-End Developer</h1>
                 <p style={{color:'yellowgreen',fontWeight:'bold'}}>
-                    Currently I am Junior Web Developer at SOCAR ENERGY GEORGIA.
+                    Currently I am Web Developer at SOCAR ENERGY GEORGIA.
                 </p>
                 <div style={{marginTop:'35px'}}>
                     <Link to='/projects'
