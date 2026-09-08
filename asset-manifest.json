@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.38b4f9e0.css",
-    "main.js": "/portfolio/static/js/main.8b7b1606.js",
+    "main.js": "/portfolio/static/js/main.c45d5f01.js",
     "static/media/projects.jpg": "/portfolio/static/media/projects.cb3ab7743c78cc3f2680.jpg",
     "static/media/intro.jpg": "/portfolio/static/media/intro.b05ce8045c6eb2878e39.jpg",
+    "static/media/natsnaviScreenShot.png": "/portfolio/static/media/natsnaviScreenShot.73e83b387a22b3bd3415.png",
     "static/media/Clock.png": "/portfolio/static/media/Clock.b0dc720989dcfcf956d2.png",
     "static/media/calculator.png": "/portfolio/static/media/calculator.fa0b6c8b1453e29abccc.png",
     "static/media/GithubUsers.png": "/portfolio/static/media/GithubUsers.6da74403d2f1f81e06f8.png",
@@ -21,10 +22,10 @@
     "static/media/ToDo App.png": "/portfolio/static/media/ToDo App.e89bca5f93892eaac79a.png",
     "index.html": "/portfolio/index.html",
     "main.38b4f9e0.css.map": "/portfolio/static/css/main.38b4f9e0.css.map",
-    "main.8b7b1606.js.map": "/portfolio/static/js/main.8b7b1606.js.map"
+    "main.c45d5f01.js.map": "/portfolio/static/js/main.c45d5f01.js.map"
   },
   "entrypoints": [
     "static/css/main.38b4f9e0.css",
-    "static/js/main.8b7b1606.js"
+    "static/js/main.c45d5f01.js"
   ]
 }
